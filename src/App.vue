@@ -2,16 +2,19 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <TitleComp></TitleComp>
+    <HeroComp></HeroComp>
   </div>
 </template>
 
 <script>
 import TitleComp from './components/TitleComp.vue'
+import HeroComp from './components/HeroComp.vue'
 
 export default {
   name: 'App',
   components: {
-    TitleComp
+    TitleComp,
+    HeroComp
   }
 }
 </script>
